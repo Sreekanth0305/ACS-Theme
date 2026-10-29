@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Auto Care | Your Complete Automotive Solution</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <span class="brand-mark">A</span>
+            <span>Auto Care</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation">☰</button>
+
+        <nav class="main-nav" id="mainNav">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+            <a class="btn btn-outline btn-small" href="login.html">Login</a>
+            <a class="btn btn-small" href="signup.html">Sign Up</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="eyebrow">YOUR TRUSTED AUTO CARE PARTNER</span>
+
+                <h1>Drive Better.<br><span>Stay Longer.</span></h1>
+
+                <h2>Your Complete Automotive Solution</h2>
+
+                <p>
+                    Keep your vehicle in top condition with our professional
+                    service, genuine parts and hassle-free experience.
+                </p>
+
+                
+
+                <div class="hero-actions">
+                    <a class="btn" href="login.html">
+                        Book Service ↗
+                    </a>
+
+                    <a class="btn btn-light" href="shop.html">
+                        Shop Parts
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <div class="container hero-search">
+            <form class="search-panel" data-demo-form>
+                <div class="field">
+                    <label for="serviceType">What do you need?</label>
+                    <select id="serviceType">
+                        <option>Auto Service</option>
+                        <option>Genuine Parts</option>
+                        <option>Vehicle Inspection</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="vehicle">Your Vehicle</label>
+                    <input id="vehicle" type="text"
+                           placeholder="e.g. Audi">
+                </div>
+
+                <div class="field">
+                    <label for="location">Location</label>
+                    <input id="location" type="text"
+                           placeholder="postal code">
+                </div>
+
+                <button class="btn" type="submit">Find Service</button>
+            </form>
+        </div>
+
+        <!-- Features -->
+        <section class="container features-strip">
+            <div class="feature">
+                <span class="feature-icon">✓</span>
+                <div>
+                    <strong>Certified Technicians</strong>
+                    <small>Skilled &amp; experienced team</small>
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-icon">◆</span>
+                <div>
+                    <strong>Genuine Parts</strong>
+                    <small>100% original products</small>
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-icon">₹</span>
+                <div>
+                    <strong>Transparent Pricing</strong>
+                    <small>No hidden charges</small>
+                </div>
+            </div>
+
+            <div class="feature">
+                <span class="feature-icon">◷</span>
+                <div>
+                    <strong>Fast &amp; Reliable</strong>
+                    <small>Service you can trust</small>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section section-light">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <span class="eyebrow">What We Do</span>
+                        <h2>Our Services</h2>
+                        <p>Expert care for every part of your vehicle.</p>
+                    </div>
+
+                    <a class="btn btn-outline" href="services.html">
+                        View All Services →
+                    </a>
+                </div>
+
+                <div class="service-grid">
+                    <article class="service-card">
+                        <span class="feature-icon">⚙</span>
+                        <h3>General Service</h3>
+                        <p>
+                            Maintain your performance
+                        </p>
+                        <a href="login.html">Book Service →</a>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="feature-icon">❄</span>
+                        <h3>AC Service</h3>
+                        <p>
+                            Stay cool and comfortable
+                        </p>
+                        <a href="login.html">Book Service →</a>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="feature-icon">◉</span>
+                        <h3>Brake System</h3>
+                        <p>
+                            Safe drive, always
+                        </p>
+                        <a href="login.html">Book Service →</a>
+                    </article>
+
+                      
+                </div>
+            </div>
+        </section>
+
+        <!-- Genuine Parts -->
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <div>
+                        <span class="eyebrow">Shop Genuine Parts</span>
+                        <h2>Quality Parts. Trusted Performance.</h2>
+                        <p>
+                            Get the best quality parts for your vehicle.
+                            100% genuine. Competitive prices.
+                        </p>
+                    </div>
+
+                    <a class="btn btn-outline" href="shop.html">
+                        Shop All Parts →
+                    </a>
+                </div>
+
+                <div class="product-grid">
+
+                     <article class="product-card">
+                        <div class="product-image">
+                            <img
+                                
+                                src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=700&q=80"
+                                alt="Vehicle air filter components">
+                        </div>
+
+                        <div class="product-info">
+                            <span class="badge">Filters</span>
+                            <h3>Air Filter</h3>
+                            <p>Clean airflow for your engine.</p>
+
+                            <div class="price-row">
+                                <span class="price">From ₹250</span>
+                                <a class="btn btn-small"
+                                   href="product-details.html">View</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=700&q=80"
+                                alt="Automotive engine components">
+                        </div>
+
+                        <div class="product-info">
+                            <span class="badge">Engine Parts</span>
+                            <h3>Engine Service Kit</h3>
+                            <p>Quality engine components.</p>
+
+                            <div class="price-row">
+                                <span class="price">From ₹1,299</span>
+                                <a class="btn btn-small"
+                                   href="product-details.html">View</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=700&q=80"
+                                alt="Car and automotive parts">
+                        </div>
+
+                        <div class="product-info">
+                            <span class="badge">Brake System</span>
+                            <h3>Brake Pads (Set)</h3>
+                            <p>Reliable stopping power.</p>
+
+                            <div class="price-row">
+                                <span class="price">From ₹1099</span>
+                                <a class="btn btn-small"
+                                   href="product-details.html">View</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section section-light" id="about">
+            <div class="container split">
+                
+
+                <div class="split-copy">
+                    <span class="eyebrow">Why Choose Us</span>
+                    <h2>Expert Care for Every Journey</h2>
+
+                    <p>
+                        Keep your vehicle running smoothly with trusted automotive services, quality spare parts, and skilled technicians.
+                    </p>
+
+                    <ul class="check-list">
+                        <li>Experienced Technicians</li>
+                        <li>Quality-Assured Spare Parts</li>
+                        <li>Affordable Service Packages</li>
+                        <li>Fast and Reliable Repairs</li>
+                    </ul>
+
+                    <a class="btn" href="about.html">Know About Us →</a>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- VEHICLE BRANDS -->
+        <section class="brands wrap">
+            <p>Trusted by thousands of happy customers</p>
+
+            <div class="brand-list">
+                <span>TOYOTA</span>
+                <span>HYUNDAI</span>
+                <span>HONDA</span>
+                <span>FORD</span>
+                <span>BMW</span>
+                <span>AUDI</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a class="brand" href="index.html">
+                    <span class="brand-mark">A</span>
+                    <span class="footer-brand-name">Auto Care</span>
+                </a>
+
+                <p>
+                    Your complete automotive solution for service,
+                    repairs and genuine parts.
+                </p>
+            </div>
+
+            <div class="footer-socials">
+            <a href="https://www.facebook.com/" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/" aria-label="Instagram">◎</a>
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a>
+            <a href="https://www.youtube.com/" aria-label="YouTube">▶</a>
+        </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div>
+                <h3>Get in Touch</h3>
+                <p>Mon – Sat: 10:00 AM – 7:00 PM</p>
+                <p>support@autocare.example</p>
+                <p>+91 8974562314</p>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <span>
+                © <span data-year></span> Auto Care. All rights reserved.
+            </span>
+            <span>Privacy · Terms</span>
+        </div>
+    </footer>
+
+</body>
+</html>
